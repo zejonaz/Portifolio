@@ -13,7 +13,6 @@
 #about>div{
     margin: auto;
     width: 1040px;
-    height: 447px;
     display: flex;
     flex-direction: column;
 }
@@ -98,4 +97,14 @@ li{
     color: var(--green);
 }
 
+#about>div>a{
+    width: 32px;
+    margin-inline: auto;
+    margin-top: 68px;
+}
+
+#about>div>a>svg{
+    color: var(--gray-400);
+
+}
 
