@@ -10,6 +10,9 @@
     align-items: center;
 }
 
+
+
+
 #about>div{
     margin: auto;
     width: 1040px;
@@ -18,16 +21,27 @@
 }
 
 #about>div>div{
-
     margin-inline: auto;
     width: 686px;
     height: 330px;
+    &::before {
+        content: "";
+        background-image: url(../assets/images/Vector.png);
+        background-size: cover;
+        width: 32px;
+        height: 28px;
+        display: flex;
+        z-index: 1;
+        position: relative;
+        left: 364px;
+        top: 86px;
+      }
 }
 
 #about>div>div>img{
     width: 92px;
-    border-radius: 50%;
-    border: 1px solid var(--red);
+    border-radius: 50px;
+    border: 2px solid var(--red);
     padding: 4px;
     margin-bottom: 56px;
 }
@@ -46,6 +60,7 @@ p{
     color: var(--gray-400);
     margin-top: 20px;
 }
+
 
 ul{
     list-style: none;
