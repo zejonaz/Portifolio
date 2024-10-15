@@ -2,7 +2,7 @@
     background-color: var(--gray-200);
 }
 
-h4{
+#projects>h4{
     color: var(--red);
     margin-block: 72px 8px;
 }

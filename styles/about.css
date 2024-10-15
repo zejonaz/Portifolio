@@ -1,9 +1,8 @@
 #about{
-    margin: auto;
+    margin-inline: auto;
     background-image: url(../assets/images/Background_Intro.png);
-
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -14,7 +13,8 @@
 
 
 #about>div{
-    margin: auto;
+    margin-inline: auto;
+    margin-top: 124px;
     width: 1040px;
     display: flex;
     flex-direction: column;
@@ -47,6 +47,10 @@
     margin-bottom: 56px;
 }
 
+#about>div>div>h4{
+    color: var(--gray-500);
+}
+
 #about>div>div>h4>span{
     color: var(--red);
 }
@@ -66,7 +70,7 @@
 ul{
     list-style: none;
     margin-inline: auto;
-    margin-top: 160px;
+    margin-block: 80px 90px;
     display: flex;
     flex-direction: row;
     gap: 16px;
@@ -119,8 +123,8 @@ li{
     margin-top: 68px;
 }
 
-#about>div>a>svg{
+#caret-down{
     color: var(--gray-400);
-
+    margin-bottom: 72px;
 }
 
