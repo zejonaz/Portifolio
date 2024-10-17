@@ -1,0 +1,65 @@
+#contact{
+    background-image: url(../assets/images/Background_Contacts.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#contact>h4{
+    color: var(--purple);
+    margin-block: 128px 8px;
+}
+
+#contact>p{
+    color: var(--gray-500);
+    margin-top: 8px;
+}
+
+#contact>div{
+    margin-block: 48px 200px;  
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    gap: 16px;
+    
+}
+
+#contact>div>a{
+    font: var(--text-md);
+    color: var(--gray-400);
+    background-color: var(--gray-300);
+    width: 400px;
+    height: 68px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1.5px solid var(--gray-300);
+    margin-inline: auto;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact>div>a>span{
+    display: flex;
+    align-items: center;
+    gap: 12px;  
+}
+
+
+#contact>div>a>span>svg:nth-child(1){
+    color: inherit;
+}
+
+#contact>div>a>span>span{
+    color: var(--gray-500);
+}
+
+#contact>div>a>svg:nth-child(2){
+    color: var(--blue);
+}
+
+#contact>div>a:hover{
+    border: 1.5px solid var(--blue);
+    color: var(--blue);
+}
