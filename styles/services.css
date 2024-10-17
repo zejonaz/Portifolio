@@ -1,0 +1,51 @@
+#services{
+    background-color: var(--gray-100);
+}
+
+#services>h4{
+    color: var(--red);
+    margin-block: 88px 8px;
+}
+
+#services>div{
+    margin-inline: auto;
+    margin-block: 56px 144px;
+    width: 888px;
+
+    display: grid;
+    grid-template-areas:
+    "A A A ";
+    gap: 24px;
+}
+
+.card-2{
+    width: 280px;
+    height: 155px;
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 8px;
+    padding: 20px;
+}
+
+.card-2>h3{
+    margin-top: 12px;
+}
+
+.card-2>p{
+    color: var(--gray-500);
+}
+
+.card-2:nth-child(1) svg{
+    color: var(--purple);
+}
+
+.card-2:nth-child(2) svg{
+    color: var(--yellow);
+}
+
+.card-2:nth-child(3) svg{
+    color: var(--green);
+}
